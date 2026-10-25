@@ -1,6 +1,6 @@
 # Libreboot on the ThinkPad T60 (14.1" XGA, Intel GPU)
 
-A complete, honest walkthrough of putting Libreboot on a T60, written while I was actually doing it. It covers the happy path (internal flash) and the part where things went sideways and I had to recover over external SPI. I've left my mistakes in on purpose, because they're the parts that cost me real time, and they're probably the parts you'll hit too.
+A complete, walkthrough of putting Libreboot on a T60, written while I was actually doing it. It covers the happy path (external flash) and the part where things went sideways and I had to recover over external SPI. I've left my mistakes in on purpose, because they're the parts that cost me real time, and they're probably the parts you'll hit too.
 
 ![Libreboot](https://img.shields.io/badge/Libreboot-26.01-blue)
 ![Machine](https://img.shields.io/badge/ThinkPad-T60-black)
