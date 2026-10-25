@@ -37,7 +37,7 @@ Yes, it is. You'll still find plenty of pages saying XGA (1024x768) doesn't work
 
 What changed is that for the i945 (X60 and T60), Libreboot switched to libgfxinit, which is coreboot's own native graphics init. That took care of the XGA panels. The current official T60 install page no longer mentions any resolution limit at all. The only caveat left is that you must have the Intel GPU, not the ATI one, and you should never flash the ATI models.
 
-So if you're on a 14.1" XGA panel, you're fine. Upgrading to SXGA+ is a nice-to-have, not a requirement. Before you start, it's worth dumping the panel's EDID just to confirm it reports valid data:
+So if you're on a 14.1" XGA panel, you're fine. Upgrading to SXGA+ is a nice to have, not a requirement. Before you start, it's worth dumping the panel's EDID just to confirm it reports valid data:
 
 ```bash
 cat /sys/class/drm/card0-LVDS-1/edid | edid-decode
@@ -52,7 +52,7 @@ When you pick the ROM later, make sure the filename contains libgfxinit (with di
 Software and files:
 
 - A ROM image from the current Libreboot release (see [section 3](#3-choosing-and-downloading-the-rom-image)).
-- The Libreboot 20160907 utils, which contain bucts, flashrom_lenovobios_sst, flashrom_lenovobios_macronix and flashrom. MIT mirror: `https://mirrors.mit.edu/libreboot/old/stable/20160907/libreboot_r20160907_util.tar.xz`
+- The Libreboot 20160907 utils, which contain bucts, flashrom_lenovobios_sst, flashrom_lenovobios_macronix and flashrom.
 - flashprog, the modern fork of flashrom, for the external flash.
 
 Hardware for the internal flash:
@@ -406,7 +406,3 @@ Three things I'd do differently next time:
 - flashprog: <https://flashprog.org>
 - SST25VF016B datasheet (Microchip DS20005044)
 - Coreboot-ThinkPads wiki (bibanon), which is useful but partly outdated
-
----
-
-Written up from a real install by someone who likes her ThinkPads libre. Pull requests with corrections and additions are welcome.
