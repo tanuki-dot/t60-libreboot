@@ -65,7 +65,7 @@ Hardware for the external flash (your rescue path, and honestly your insurance p
 
 - A Raspberry Pi Pico, or an RPi 3B or Zero 2 W used as linux_spi.
 > [!CAUTION]
-> You can also use a CH341A programmer, but verify the voltage first, as older versions supply 5V instead of 3.3V.
+> You can also use a CH341A programmer, but verify the voltage first, as older versions may operate at 5V instead of 3.3V.
 - A SOIC-8 clip. A Pomona 5250 is the nice one.
 - Thin dupont wires, kept under 10 cm.
 - A multimeter.
