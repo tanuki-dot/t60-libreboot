@@ -37,7 +37,7 @@ Yes, it is. You'll still find plenty of pages saying XGA (1024x768) doesn't work
 
 What changed is that for the i945 (X60 and T60), Libreboot switched to libgfxinit, which is coreboot's own native graphics init. That took care of the XGA panels. The current official T60 install page no longer mentions any resolution limit at all. The only caveat left is that you must have the Intel GPU, not the ATI one, and you should never flash the ATI models.
 
-So if you're on a 14.1" XGA panel, you're fine. Upgrading to SXGA+ is a nice to have, not a requirement. Before you start, it's worth dumping the panel's EDID just to confirm it reports valid data:
+So if you're on a 14.1" XGA panel, you're fine. Upgrading to SXGA+ is a nice to have but not a requirement. Before you start, it's worth dumping the panel's EDID just to confirm it reports valid data:
 
 ```bash
 cat /sys/class/drm/card0-LVDS-1/edid | edid-decode
