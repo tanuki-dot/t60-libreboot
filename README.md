@@ -64,7 +64,8 @@ Hardware for the internal flash:
 Hardware for the external flash (your rescue path, and honestly your insurance policy):
 
 - A Raspberry Pi Pico, or an RPi 3B or Zero 2 W used as linux_spi.
-- You can also use a CH341a proggramer but watch out, sometimes the old ver comes in 5v.´
+> [!CAUTION]
+> You can also use a CH341a proggramer but watch out, sometimes the old ver comes in 5v.
 - A SOIC-8 clip. A Pomona 5250 is the nice one.
 - Thin dupont wires, kept under 10 cm.
 - A multimeter.
