@@ -8,6 +8,12 @@ A complete, walkthrough of putting Libreboot on a T60, written while I was actua
 ![Panel](https://img.shields.io/badge/Panel-14.1%22%20XGA-green)
 ![Status](https://img.shields.io/badge/status-working-success)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e5a6ed3-053f-4320-9b5f-402bd3b5e635" width="400" alt="ThinkPad T60 s nabootovaným Librebootem na XGA panelu">
+  <br>
+  <em>Libreboot working on xga t60.</em>
+</p>
+
 > [!NOTE]
 > The single biggest time sink for me was SPI bus contention during the external flash. If your programmer says it "never sees the chip," skip ahead to [section 6](#6-rescue-via-external-spi-raspberry-pi-pico-serprog). That one insight would have saved me a whole evening.
 
@@ -46,8 +52,6 @@ cat /sys/class/drm/card0-LVDS-1/edid | edid-decode
 When you pick the ROM later, make sure the filename contains libgfxinit (with display type corebootfb).
 
 ---
-<img width="900" height="900" alt="Image" src="https://github.com/user-attachments/assets/8e5a6ed3-053f-4320-9b5f-402bd3b5e635" />
-
 
 ## 2. What you'll need
 
